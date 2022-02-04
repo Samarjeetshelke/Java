@@ -22,7 +22,7 @@ class Frm7 extends Frame implements ActionListener,FocusListener{
 		t2= new TextField();
 		t3= new TextField();
 
-		t1.addFocusListener(this);
+		t1.addFocusListener(this);		//Adding a focuslistener
 		t3.addFocusListener(this);
 
 		b1 = new Button("Ok");
@@ -47,7 +47,7 @@ class Frm7 extends Frame implements ActionListener,FocusListener{
 	}
 
 	public void actionPerformed(ActionEvent e){
-
+									//Method for ActionListener  REQURIED
 		Button b = (Button)e.getSource();
 
 		if(b == b2){
@@ -68,11 +68,11 @@ class Frm7 extends Frame implements ActionListener,FocusListener{
 		}
 	}
 
-	public void focusGained(FocusEvent e){
+	public void focusGained(FocusEvent e){			//Method for FocusListener REQURIED
 
 	}
 
-	public void focusLost(FocusEvent e){
+	public void focusLost(FocusEvent e){			//Method for FocusListerner REQURIED
 
 		TextField t = (TextField)e.getSource();
 
@@ -83,7 +83,7 @@ class Frm7 extends Frame implements ActionListener,FocusListener{
 			}
 			catch(Exception ex){
 				t1.setText("0");
-				t1.requestFocus();
+				t1.requestFocus();	//It will not letyou to change the focus
 				return;
 			}
 
