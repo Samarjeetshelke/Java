@@ -15,4 +15,17 @@ public class MyClass3 extends Thread{
   t2.start();    
  }    
 }    
-//SO it will run the first iteraion of thread 1 and then first iteration of thread2
+//SO it will run the first iteraion of thread 1 and then first iteration of thread2//#if we call the start() method
+/*
+Output:
+1
+1
+2
+2
+3
+3
+4
+4
+
+
+*/
