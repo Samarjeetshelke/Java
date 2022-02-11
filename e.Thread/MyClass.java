@@ -9,3 +9,4 @@ public class MyClass{
         a.start();
     }
 }
+//Extending Thread class
