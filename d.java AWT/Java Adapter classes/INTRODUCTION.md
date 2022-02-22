@@ -1,4 +1,5 @@
 **Java Adapter Classes**<br>
+
 <br>
 Java adapter classes provide the default implementation of listener interfaces. If you inherit the adapter class, you will not be forced to provide the implementation of all the methods of listener interfaces. So it saves code.
 <br>
