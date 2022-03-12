@@ -23,10 +23,10 @@ class Calculator extends Frame implements ActionListener
 		super("Calculator");
 
 		addWindowListener(new WindowAdapter() {    
-            public void windowClosing (WindowEvent e) {    
-                System.exit(0);   
-            }    
-        });   
+           	 public void windowClosing (WindowEvent e) {    
+                	System.exit(0);   
+            	}    
+        	});   
 
 		flg = 0;
 
