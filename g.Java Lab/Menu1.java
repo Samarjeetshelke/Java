@@ -56,6 +56,10 @@ class Menu1 extends Frame implements ActionListener {
 	public void actionPerformed(ActionEvent e){
 		MenuItem b = (MenuItem)e.getSource();
 
+		/*String path="E:/LabJava/abc.txt";
+		File file = new File(path);*/
+
+
 		if(b==i1){
 			System.out.println("Copy"); 	
 		}
@@ -63,6 +67,7 @@ class Menu1 extends Frame implements ActionListener {
 			System.out.println("Paste");
 		}
 		else if(b==i3){
+
 			System.out.println("New");
 			new Menu1();
 		}

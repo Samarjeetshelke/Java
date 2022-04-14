@@ -2,11 +2,12 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class  Lab3  extends Frame implements ActionListener {
+class  Lab3  extends Frame implements ActionListener,WindowListener{
 
 	Button b;
 	Lab3(){
 		super("Lab");
+		addWindowListener()
 
 		b = new Button("Change");
 
