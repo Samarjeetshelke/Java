@@ -5,3 +5,5 @@ JDBC-ODBC Bridge Driver,
 Native Driver,
 Network Protocol Driver, and
 Thin Driver
+
+We can use JDBC API to access tabular data stored in any relational database. By the help of JDBC API, we can save, update, delete and fetch data from the database. It is like Open Database Connectivity (ODBC) provided by Microsoft
